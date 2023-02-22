@@ -1,0 +1,118 @@
+{
+  "productes": [
+    {
+      "nom": "patata",
+      "tipus": "tubercle",
+      "preu": "20",
+      "categoria": "verdures",
+      "createdAt": "1/25/2023, 1:15:44 PM",
+      "updatedAt": "3/10/2023, 8:21:56 AM"
+    },
+    {
+      "nom": "pastanaga",
+      "tipus": "tubercle",
+      "preu": "20",
+      "categoria": "verdures",
+      "createdAt": "1/25/2023, 1:15:44 PM",
+      "updatedAt": "3/10/2023, 8:21:56 AM"
+    },
+    {
+      "nom": "tomata",
+      "tipus": "fruit",
+      "preu": "20",
+      "categoria": "fruita",
+      "createdAt": "1/25/2023, 1:15:44 PM",
+      "updatedAt": "3/10/2023, 8:21:56 AM"
+    },
+    {
+      "nom": "mandarines",
+      "tipus": "fruit",
+      "preu": "20",
+      "categoria": "fruita",
+      "createdAt": "2/20/2023, 6:11:45 PM",
+      "updatedAt": "2/20/2023, 6:11:45 PM"
+    }
+  ],
+  "estocs": [
+    {
+      "id": "1",
+      "producte": "patata",
+      "caducitat": "1/25/2023, 1:15:44 PM",
+      "dataVenda": "3/10/2023, 8:21:56 AM",
+      "ubicacio": "1",
+      "createdAt": "1/25/2023, 1:15:44 PM",
+      "updatedAt": "3/10/2023, 8:21:56 AM"
+    },
+    {
+      "id": "2",
+      "producte": "pastanaga",
+      "caducitat": "1/25/2023, 1:15:44 PM",
+      "dataVenda": "3/10/2023, 8:21:56 AM",
+      "ubicacio": "1",
+      "createdAt": "1/25/2023, 1:15:44 PM",
+      "updatedAt": "3/10/2023, 8:21:56 AM"
+    },
+    {
+      "id": "3",
+      "producte": "tomata",
+      "caducitat": "1/25/2023, 1:15:44 PM",
+      "dataVenda": "3/10/2023, 8:21:56 AM",
+      "ubicacio": "1",
+      "createdAt": "1/25/2023, 1:15:44 PM",
+      "updatedAt": "3/10/2023, 8:21:56 AM"
+    },
+    {
+      "id": "4",
+      "producte": "mandarines",
+      "caducitat": "2/20/2023, 6:11:45 PM",
+      "dataVenda": "2/20/2023, 6:11:45 PM",
+      "ubicacio": "1",
+      "createdAt": "2/20/2023, 6:11:45 PM",
+      "updatedAt": "2/20/2023, 6:11:45 PM"
+    }
+  ],
+  "categories": [
+    {
+      "nom": "fruita",
+      "iva": "21",
+      "createdAt": "1/25/2023, 1:15:44 PM",
+      "updatedAt": "3/10/2023, 8:21:56 AM"
+    },
+    {
+      "nom": "verdures",
+      "iva": "21",
+      "createdAt": "1/25/2023, 1:15:44 PM",
+      "updatedAt": "3/10/2023, 8:21:56 AM"
+    },
+    {
+      "nom": "carn",
+      "iva": "21",
+      "createdAt": "1/25/2023, 1:15:44 PM",
+      "updatedAt": "3/10/2023, 8:21:56 AM"
+    },
+    {
+      "nom": "lactis",
+      "iva": "21",
+      "createdAt": "2/20/2023, 6:11:45 PM",
+      "updatedAt": "2/20/2023, 6:11:45 PM"
+    },
+    {
+      "nom": "llaminadures",
+      "iva": "21",
+      "createdAt": "2/20/2023, 6:11:45 PM",
+      "updatedAt": "2/20/2023, 6:11:45 PM"
+    },
+    {
+      "nom": "congelats",
+      "iva": "21",
+      "createdAt": "2/20/2023, 6:11:45 PM",
+      "updatedAt": "2/20/2023, 6:11:45 PM"
+    },
+    {
+      "nom": "altres",
+      "iva": "21",
+      "createdAt": "2/20/2023, 6:11:45 PM",
+      "updatedAt": "2/20/2023, 6:11:45 PM"
+    }
+  ]
+}
