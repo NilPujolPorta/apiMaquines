@@ -162,6 +162,35 @@
           }
         }
       }
+    },
+    "/api/v1/maquines/": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/maquines/{maquinaId}": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "maquinaId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   }
 }

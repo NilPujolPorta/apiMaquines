@@ -1,6 +1,7 @@
 const express = require("express");
 const v1ProducteRouter = require("./v1/routes/producteRoutes");
 const v1EstocRouter = require("./v1/routes/estocRoutes");
+const v1MaquinaRouter = require("./v1/routes/maquinaRoutes");
 const bodyParser = require("body-parser");
 
 const app = express();
@@ -13,6 +14,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 app.use("/api/v1/productes", v1ProducteRouter);
 app.use("/api/v1/estocs", v1EstocRouter);
+app.use("/api/v1/maquines", v1MaquinaRouter);
 app.use('/swagger', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.listen(PORT, () => {

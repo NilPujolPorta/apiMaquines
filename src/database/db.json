@@ -114,5 +114,27 @@
       "createdAt": "2/20/2023, 6:11:45 PM",
       "updatedAt": "2/20/2023, 6:11:45 PM"
     }
+  ],
+  "maquies": [
+    {
+      "id": "1",
+      "municipi": "Barcelona",
+      "adreça": "Carrer de la Pau, 1"
+    },
+    {
+      "id": "2",
+      "municipi": "Llleida",
+      "adreça": "Carrer de la Pau, 2"
+    },
+    {
+      "id": "3",
+      "municipi": "Tarragona",
+      "adreça": "Carrer de la Pau, 3"
+    },
+    {
+      "id": "4",
+      "municipi": "Girona",
+      "adreça": "Carrer de la Pau, 4"
+    }
   ]
 }

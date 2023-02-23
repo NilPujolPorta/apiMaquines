@@ -7,7 +7,7 @@ const getAllEstocs = () => {
 };
 
 const getOneEstoc = (estocId) => {
-    const estoc = DB.estocs.find((estoc) => estoc.nom === estocId);
+    const estoc = DB.estocs.find((estoc) => estoc.id === estoc.id);
     if (!estoc) {
         return;
     }
@@ -16,11 +16,11 @@ const getOneEstoc = (estocId) => {
 
 const createNewEstoc = (newEstoc) => {
     const isAlreadyAdded =
-        DB.estocs.findIndex((estoc) => estoc.nom === newEstoc.nom) > -1;
+        DB.estocs.findIndex((estoc) => estoc.id === newEstoc.id) > -1;
     if (isAlreadyAdded) {
         throw {
             status: 400,
-            message: `Estoc with the name '${newEstoc.nom}' already exists`,
+            message: `Estoc with the name '${newEstoc.id}' already exists`,
         };
     }
     if (getOneProducte(newEstoc.producte) === false) {
@@ -44,7 +44,7 @@ const createNewEstoc = (newEstoc) => {
 
 const updateOneEstoc = (estocId, changes) => {
     const indexForUpdate = DB.estocs.findIndex(
-        (estoc) => estoc.nom === estocId
+        (estoc) => estoc.id === estoc.id
     );
     if (getOneProducte(newEstoc.producte) === false) {
         throw {
@@ -67,7 +67,7 @@ const updateOneEstoc = (estocId, changes) => {
 
 const deleteOneEstoc = (estocId) => {
     const indexForDeletion = DB.estocs.findIndex(
-        (estoc) => estoc.nom === estocId
+        (estoc) => estoc.id === estoc.id
     );
     if (indexForDeletion === -1) {
         return;
