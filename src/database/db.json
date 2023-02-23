@@ -136,5 +136,97 @@
       "municipi": "Girona",
       "adreça": "Carrer de la Pau, 4"
     }
+  ],
+  "calaixos": [
+    {
+      "id": "1",
+      "maquina": "1",
+      "casella": "1A"
+    },
+    {
+      "id": "2",
+      "maquina": "1",
+      "casella": "1B"
+    },
+    {
+      "id": "3",
+      "maquina": "1",
+      "casella": "1C"
+    },
+    {
+      "id": "4",
+      "maquina": "1",
+      "casella": "1D"
+    },
+    {
+      "id": "5",
+      "maquina": "1",
+      "casella": "1E"
+    },
+    {
+      "id": "6",
+      "maquina": "1",
+      "casella": "1F"
+    },
+    {
+      "id": "7",
+      "maquina": "1",
+      "casella": "1G"
+    },
+    {
+      "id": "8",
+      "maquina": "2",
+      "casella": "1H"
+    },
+    {
+      "id": "9",
+      "maquina": "2",
+      "casella": "1I"
+    },
+    {
+      "id": "10",
+      "maquina": "2",
+      "casella": "1J"
+    },
+    {
+      "id": "11",
+      "maquina": "2",
+      "casella": "1K"
+    },
+    {
+      "id": "12",
+      "maquina": "3",
+      "casella": "1L"
+    },
+    {
+      "id": "13",
+      "maquina": "3",
+      "casella": "1M"
+    },
+    {
+      "id": "14",
+      "maquina": "3",
+      "casella": "1N"
+    },
+    {
+      "id": "15",
+      "maquina": "3",
+      "casella": "1O"
+    },
+    {
+      "id": "16",
+      "maquina": "4",
+      "casella": "1P"
+    },
+    {
+      "id": "17",
+      "maquina": "4",
+      "casella": "1Q"
+    },
+    {
+      "id": "18",
+      "maquina": "4",
+      "casella": "1R"
+    }
   ]
 }
